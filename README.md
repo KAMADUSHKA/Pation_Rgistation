@@ -1,0 +1,1 @@
+Now this application has POST and GET methord only but I will add UPDATE and DELETE methord quickly
