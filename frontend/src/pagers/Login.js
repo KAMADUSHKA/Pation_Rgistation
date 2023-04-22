@@ -54,21 +54,7 @@ export default function Login() {
       </fieldset>
         
     </div>
-  )
+  );
 }
 
-// import React from 'react'
 
-// export default function Login() {
-//   return (
-//     <div>
-
-          
-//     <div >
-//          <input type='email'id='inputf' placeholder='Enter Your E-mail ' /><br/><br/>
-//         <input type='password' id='inputf'  placeholder='Enter Your Password ' /><br/><br/>
-//     </div>
-
-//     </div>
-//   )
-// }
