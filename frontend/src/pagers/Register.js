@@ -52,9 +52,12 @@ export default function Register() {
         <div>
             <button id='btn' onClick={addContact}>Enter to Register</button>
         </div>
-       </div>
-       if you are registered 
-        <a href='./Login'>  click this</a>
+        <br/>
+       </div >
+            <div id='loginLink'>
+                if you are registered 
+                <a href='./Login'>  click this</a>
+            </div>
         </fieldset>
         
         
