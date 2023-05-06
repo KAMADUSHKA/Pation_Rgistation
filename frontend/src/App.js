@@ -4,6 +4,7 @@ import Register from './pagers/Register';
 import Login from './pagers/Login';
 // import Dashbord from './pagers/Dashbord';
 import Dboard from './pagers/Dboard';
+import MainHome from './pagers/MainHome'
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route
-            path="/"
+            path="/Register"
             element={<Register/>}
             />
             <Route
@@ -23,7 +24,10 @@ function App() {
             path='/Dboard'
             element={<Dboard/>}
             />
-           
+           <Route
+           path='/'
+           element={<MainHome/>}
+           />
         </Routes>
       </BrowserRouter>
     </div>
