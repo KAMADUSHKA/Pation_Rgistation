@@ -50,6 +50,10 @@ export default function Login() {
                       </div>
 
                 </div>
+                        <div id='loginLink'>
+                        if you are not registered 
+                        <a href='./'>  click this</a>
+            </div>
 
       </fieldset>
         
