@@ -37,7 +37,8 @@ export default function Register() {
     }
 
   return (
-    <div id='main'>
+   <>
+         <div id='main'>
         <p id='heading'>Welcome to Dispensary</p>
         <fieldset id='fieldset'>
         <legend id='lgnd'><h2>User Registration Form</h2></legend>
@@ -62,6 +63,7 @@ export default function Register() {
         
         
     </div>
+   </>
   )
 }
 

@@ -1,0 +1,12 @@
+#navBar{
+    height: 75px;
+    background-color: black;
+    justify-self: start;
+    display: flex;
+}
+
+#menu-bar{
+    font-size: 3rem;
+    background: none;
+    margin-left: 3rem;
+}

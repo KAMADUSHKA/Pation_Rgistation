@@ -4,13 +4,15 @@ import Register from './pagers/Register';
 import Login from './pagers/Login';
 // import Dashbord from './pagers/Dashbord';
 import Dboard from './pagers/Dboard';
-import MainHome from './pagers/MainHome'
+import MainHome from './pagers/MainHome';
+import NavigationBar from './pagers/NavigationBar';
 
 
 function App() {
   return (
     <div >
       <BrowserRouter>
+      <NavigationBar/>
         <Routes>
           <Route
             path="/Register"

@@ -29,35 +29,36 @@ export default function Login() {
 
 
   return (
+    <>
+        <div id='main'>
 
-    <div id='main'>
+<h1 id='heading'>Welcome to Dispensary</h1>
 
-        <h1 id='heading'>Welcome to Dispensary</h1>
-        
-        <fieldset id='fieldsetLogin'>
+<fieldset id='fieldsetLogin'>
 
-            <legend id='lgnd'><h2>User Registration Form</h2></legend>
+    <legend id='lgnd'><h2>User Registration Form</h2></legend>
 
-                <div >
+        <div >
 
-                      <div >
-                          <input type='email'id='inputf' value={email} onInput={e=>setEmail(e.target.value)} placeholder='Enter Your E-mail ' /><br/><br/>
-                          <input type='password' id='inputf'value={password} onInput={e=>setPassword(e.target.value)} placeholder='Enter Your Password ' /><br/><br/>
-                      </div>
+              <div >
+                  <input type='email'id='inputf' value={email} onInput={e=>setEmail(e.target.value)} placeholder='Enter Your E-mail ' /><br/><br/>
+                  <input type='password' id='inputf'value={password} onInput={e=>setPassword(e.target.value)} placeholder='Enter Your Password ' /><br/><br/>
+              </div>
 
-                      <div>
-                          <button id='btn' onClick={login}>Enter to Register</button>
-                      </div>
+              <div>
+                  <button id='btn' onClick={login}>Enter to Register</button>
+              </div>
 
-                </div>
-                        <div id='loginLink'>
-                        if you are not registered 
-                        <a href='./'>  click this</a>
-            </div>
-
-      </fieldset>
-        
+        </div>
+                <div id='loginLink'>
+                if you are not registered 
+                <a href='./Register'>  click this</a>
     </div>
+
+</fieldset>
+
+</div>
+    </>
   );
 }
 

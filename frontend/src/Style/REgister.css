@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://cdn.pixabay.com/photo/2018/07/15/10/44/dna-3539309_960_720.jpg);
+    background-image: url(https://mdbootstrap.com/img/Photos/Others/sidenav2.jpg);
     background-position: center;
     background-size: cover;
     width: 100vw;
@@ -33,12 +33,30 @@ body{
 
 
 #fieldset{
-    height: 500px;
-    width: 800px;
+    height: 50%;
+    width: 50%;
     margin: auto;
     border-radius: 20px;
     box-shadow:aliceblue;
     background-color:rgba(250, 235, 215, 0.299);
+}
+
+#fieldsetFormat{
+    height: 39%;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow:aliceblue;
+    background-color:rgba(250, 235, 215, 0.34);
+}
+
+#fieldsetLogin{
+    height: 28%;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow:aliceblue;
+    background-color:rgba(250, 235, 215, 0.34);
 }
 
 #form{
@@ -49,6 +67,7 @@ body{
     border-color: black;
     
 }
+
 
 #inputf{
     height: 40px;
@@ -82,14 +101,7 @@ border-color: black;
 
 }
 
-#fieldsetFormat{
-    height: 390px;
-    width: 800px;
-    margin: auto;
-    border-radius: 20px;
-    box-shadow:aliceblue;
-    background-color:rgba(250, 235, 215, 0.34);
-}
+
 
 #detail{
     font-size: 25px;
@@ -98,11 +110,3 @@ border-color: black;
 }
 
 
-#fieldsetLogin{
-    height: 285px;
-    width: 800px;
-    margin: auto;
-    border-radius: 20px;
-    box-shadow:aliceblue;
-    background-color:rgba(250, 235, 215, 0.34);
-}
